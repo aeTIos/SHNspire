@@ -11,7 +11,7 @@ LDFLAGS =
 ZEHNFLAGS = --name "SHNspire"
 
 ifeq ($(DEBUG),FALSE)
-	GCCFLAGS += -Os
+	GCCFLAGS += -Ofast
 else
 	GCCFLAGS += -O0 -g
 endif
